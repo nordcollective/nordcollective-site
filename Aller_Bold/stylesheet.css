@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Aller Bold';
+	src: url('aller_bd-webfont.eot');
+	src: url('aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+		url('aller_bd-webfont.woff') format('woff'),
+		url('aller_bd-webfont.ttf') format('truetype'),
+		url('aller_bd-webfont.svg') format('svg');
+}
