@@ -3,7 +3,7 @@ PVector[] pos = new PVector[nNodes];
 PVector[] vel = new PVector[nNodes];
 
 void setup() {
-  size(600,600, P2D);
+  size(window.canvasWidth, window.canvasHeight, P2D);
   colorMode(RGB, 255);
   background(220, 220, 220);
   frameRate(30);
@@ -55,6 +55,5 @@ void draw() {
       
     cPos.add(vel[i]);
   };
-  println(frameRate);
 }
 
