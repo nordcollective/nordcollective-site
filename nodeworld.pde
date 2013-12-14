@@ -1,4 +1,4 @@
-int nNodes = 800;
+int nNodes = 600;
 PVector[] pos = new PVector[nNodes];
 PVector[] vel = new PVector[nNodes];
 
@@ -35,7 +35,7 @@ void draw() {
       
     //force.setMag(force.mag() - noise(i) * width);
     float mag = max(force.mag(), 0.001);
-    force.mult(1 - (noise(i) * width) / mag);
+    force.mult(1 - (noise(i) * width * 0.5) / mag);
       
     force.mult(0.05);
     force.mult(-0.5);
@@ -47,13 +47,13 @@ void draw() {
     vel[i].x += random(-0.1, 0.1);
     vel[i].y += random(-0.1, 0.1);
     
-    if (cPos.mag() > width*0.4) {
+    if (cPos.mag() > width*0.3) {
         PVector toCenter = cPos.get();
         toCenter.mult(-0.01);
         vel[i].add(toCenter);
     }
       
     cPos.add(vel[i]);
-  };
+  }
 }
 

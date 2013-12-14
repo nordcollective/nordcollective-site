@@ -56,49 +56,94 @@ img, object, embed, video {
 	float: none;
 }
 .logo {
-width: 100%;
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 .Collective {
-width: 100%;
+width: 28.5714%;
 clear: both;
 margin-left: 0;
+line-height: 160%;
+	font-family: "Aller Bold";
+	font-size: 12px;
 }
 .Members {
 width: 100%;
 clear: both;
 margin-left: 0;
+line-height: 160%;
+	font-family: "Aller Bold";
+	font-size: 12px;
 }
 .members {
-width: 100%;
+width: 28.5714%;
 clear: both;
 margin-left: 0;
+line-height: 160%;
+	font-family: "Aller Bold";
+	font-size: 12px;
 }
 .work {
-width: 100%;
+width: 28.5714%;
 clear: both;
 margin-left: 0;
+line-height: 160%;
+	font-family: "Aller Bold";
+	font-size: 12px;
 }
 .description {
 width: 100%;
+margin-left: 0;
+clear: both;
+line-height: 160%;
+	font-family: "Aller Regular";
+	font-size: 13px;
 }
 .names {
 width: 100%;
 clear: both;
 margin-left: 0;
+line-height: 160%;
+	font-family: "Aller Regular";
+	font-size: 13px;
 }
 .projects {
 width: 100%;
 clear: both;
 margin-left: 0;
+line-height: 160%;
+	font-family: "Aller Regular";
+	font-size: 13px;
 }
 .pink {
 clear: both;
 margin-left: 0;
 }
 .pinkbanner {
+	background-color: rgba(235,51,139,0.60);
+	height: 30px;
+	width: 100%
 }
+
+.glass {
+	background-color: rgba(100,255,255,0.60);
+	height: 300px;
+	padding-top: 170px;
+	z-index: -1000;
+}
+
 .footermail {
-width: 100%;
+font-family: "Aller Regular";
+	text-align: left;
+	font-size: 11px;
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	left: 0;
+	text-align: center;
 }
 .zeroMargin_mobile {
 margin-left: 0;
@@ -120,49 +165,99 @@ display: none;
 	margin-left: auto;
 }
 .logo {
-width: 100%;
+width: 32.2033%;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: 0%;
+margin-right: 100%;
 }
 .Collective {
-width: 100%;
+width: 32.2033%;
+padding-top: 3%;
 clear: both;
 margin-left: 0;
+margin-right: 1.6949%;
+line-height: 160%;
+	font-family: "Aller Bold";
+	font-size: 12px;
 }
 .Members {
 width: 100%;
+padding-top: 3%;
 clear: both;
 margin-left: 0;
+line-height: 160%;
+	font-family: "Aller Bold";
+	font-size: 13px;
 }
 .members {
-width: 100%;
-clear: both;
-margin-left: 0;
+width: 32.2033%;
+padding-top: 3%;
+clear: none;
+margin-left: 10.1694%;
+line-height: 160%;
+	font-family: "Aller Bold";
+	font-size: 13px;
 }
 .work {
-width: 100%;
-clear: both;
-margin-left: 0;
+width: 23.7288%;
+padding-top: 3%;
+clear: none;
+margin-left: 10.1694%;
+line-height: 160%;
+	font-family: "Aller Bold";
+	font-size: 13px;
 }
 .description {
-width: 100%;
+width: 23.7288%;
+line-height: 160%;
+	font-family: "Aller Regular";
+	font-size: 13px;
+clear: both;
+margin-left: 0;
 }
 .names {
-width: 100%;
-clear: both;
-margin-left: 0;
+width: 32.2033%;
+clear: none;
+margin-left: 10.1694%;
+line-height: 160%;
+	font-family: "Aller Regular";
+	font-size: 13px;
 }
 .projects {
-width: 100%;
-clear: both;
-margin-left: 0;
+width: 23.7288%;
+clear: none;
+margin-left: 10.1694%;
+line-height: 160%;
+	font-family: "Aller Regular";
+	font-size: 13px;
 }
 .pink {
 clear: both;
 margin-left: 0;
 }
 .pinkbanner {
+	background-color: rgba(235,51,139,0.60);
+	height: 40px;
+	width: 100%
 }
+
+.glass {
+	background-color: rgba(100,255,255,0.60);
+	height: 385px;
+	padding-top: 170px;
+	z-index: -1000;
+}
+
 .footermail {
-width: 100%;
+	font-family: "Aller Regular";
+	text-align: left;
+	font-size: 12px;
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	left: 0;
+	text-align: center;
 }
 .hide_tablet {
 display: none;
@@ -190,6 +285,8 @@ margin-left: 0;
 width: 15.2542%;
 padding-top: 44px;
 padding-bottom: 44px;
+margin-left: 0%;
+margin-right: 100%;
 }
 .Collective {
 	width: 23.7288%;
@@ -198,6 +295,7 @@ padding-bottom: 44px;
 	font-family: "Aller Bold";
 	font-size: 13px;
 	margin-left: 0;
+	margin-right: 0;
 	clear: both;
 }
 .members {
@@ -223,6 +321,8 @@ padding-bottom: 44px;
 	line-height: 160%;
 	font-family: "Aller Regular";
 	font-size: 13px;
+	clear: both;
+	margin-left: 0;
 }
 .names {
 	width: 32.2033%;
@@ -248,7 +348,10 @@ padding-bottom: 44px;
 }
 
 .glass {
-	background-color: rgba(255,255,255,0.60);
+	background-color: rgba(100,255,255,0.60);
+	height: 385px;
+	padding-top: 170px;
+	z-index: -1000;
 }
 
 .footermail {

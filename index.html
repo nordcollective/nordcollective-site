@@ -6,9 +6,11 @@
 <html class="">
 <!--<![endif]-->
 <head>
+<link rel="shortcut icon" href="favicon.ico">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NORD</title>
+<meta name="description" content="NORD is a networked studio of invention. Through art, science, design and technology we create things.">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="Home.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -46,6 +48,21 @@ Do the following if you're using your customized build of modernizr (http://www.
           position: absolute;
           z-index: -1;
         }
+    a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: rgba(79,79,79,1);
+}
+a:active {
+	text-decoration: none;
+}
     </style> 
     <script>
         $(function () {
@@ -60,35 +77,29 @@ Do the following if you're using your customized build of modernizr (http://www.
 </head>
 <body>
 
+
+<div class="pinkbanner"></div>
+
 <div class="gridContainer clearfix">
 
-  <div class="pinkbanner"></div>
+  
 
-   <div class="logo"><img src="nord-logo.svg" alt=""/></div>
-  <div class="glass clearfix">
-    <div class="fluid Collective">Collective:</div>
-    
-    <div class="fluid members">Members:</div>
-    
-    <div class="fluid work">Work:</div><div class="fluid description">NORD is a networked studio of invention. Through art, science, design and technology we create things.</div>
-    
-    <div class="fluid names">Ben Pawle: Design<br>
-      Jacob Pawle: Making<br>
+   <div class="logo"><img src="nord-logo.svg" alt=""/></div><div class="fluid Collective">Collective:</div><div class="fluid members zeroMargin_tablet">Members:</div><div class="fluid work">Work:</div><div class="fluid description zeroMargin_mobile">NORD is a networked studio of invention. Through art, science, design and technology we create things.</div><div class="fluid names"><a href="http://www.benpawle.co.uk">Ben Pawle: Design</a><br>
+      <a href="http://www.jpfurnituredesign.com">Jacob Pawle: Making</a><br>
       Joe Rickerby: Software Development<br>
+      Megan Rodger: Design
+      <br>
       Duncan Smeed: Computer Science<br>
       Kenneth Smeed: Design
-    </div>
-    
-    <div class="fluid projects">Gif-ting<br>
-      Tingbot<br>
-      Mixim<br>
-      Wheely Good Pizza
-    </div>
-  </div>
-  
-  <div class="fluid footermail">hello@nordcollective.com   </div>
+    </div><div class="fluid projects"><a href="http://www.ting.it">Gif-ting</a><br>
+      <a href="http://www.ting.it">Tingbot</a><br>
+      <a href="http://www.getmixim.com">Mixim</a><br>
+      <a href="http://www.wheelygoodpizza.co">Wheely Good Pizza</a>
+    </div><div class="fluid footermail">hello@nordcollective.com   </div>
   
 </div>
+
+<div class="glass clearfix"> </div>
 
 <canvas id="background" data-processing-sources="nodeworld.pde"></canvas>
 
