@@ -5,7 +5,7 @@ PVector[] vel = new PVector[nNodes];
 void setup() {
   size(window.canvasWidth, window.canvasHeight, P2D);
   colorMode(RGB, 255);
-  background(220, 220, 220);
+  background(250, 250, 250);
   frameRate(30);
   strokeWeight(1);
   for (int i = 0; i < nNodes; i++) {
